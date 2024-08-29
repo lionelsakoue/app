@@ -5,7 +5,7 @@ FROM node:14
 WORKDIR /usr/src/app
 
 # Copy package.json and package-lock.json.
-COPY package*.json ./
+COPY hello-world-app/package.json .
 
 # Install dependencies.
 RUN npm install
